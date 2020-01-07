@@ -2,6 +2,22 @@
 using namespace std;
 
 
+string mixText(string a,string b){
+	if (a.size()==b.size())
+	{
+		int i=0,N=a.size();
+		string c;
+		while (i<N)
+		{
+			c=c+a[i]+b[i];
+			i++;
+		}
+		return c;
+	}else{
+		return "E";
+	}
+	
+}
 
 
 int main(){	
